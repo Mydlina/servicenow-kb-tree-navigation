@@ -20,6 +20,7 @@ Only the bases and articles the user is allowed to read are shown.
 | `widgets/kb-tree-navigation/` | Widget **KB Tree Navigation** (`kb-tree-navigation`): server script, client controller, HTML template, SCSS, option schema, and the recursive Angular ng-template `kbtree-node.html` |
 | `widgets/kb-selector/` | Widget **KB Selector** (`kb-selector`): card list of the readable knowledge bases, with a filter box |
 | `scripts/install.js` | Installer to run in *Scripts - Background*: creates or updates the widgets, the two pages and an optional header menu entry |
+| `update-set/` | Update set XML export (widgets and pages), ready to import |
 | `tools/build_install.py` | Rebuilds `scripts/install.js` from the files in `widgets/` |
 
 ## Requirements
@@ -30,7 +31,25 @@ Only the bases and articles the user is allowed to read are shown.
 
 ## Installation
 
-### Option A - installer script (recommended)
+### Option A - update set (recommended)
+
+[`update-set/sys_remote_update_set_kb_tree_navigation_1_0.xml`](update-set/sys_remote_update_set_kb_tree_navigation_1_0.xml) contains 15 records, all in the global scope:
+
+| Type | Records |
+|---|---|
+| Widgets | KB Tree Navigation (`kb-tree-navigation`), KB Selector (`kb-selector`) |
+| Angular ng-template | `kbtree-node.html` |
+| Pages | `kb_tree_home`, `kb_tree_article`, with their containers, rows, columns and widget instances |
+
+1. **System Update Sets > Retrieved Update Sets > Import Update Set from XML**, upload the file.
+2. Open **KB Tree Navigation 1.0**, click **Preview Update Set**, then **Commit Update Set**.
+3. Add the header menu entry (not part of the update set, because the menu depends on the portal): **Service Portal > Menus**, open your header menu (*Employee Center Menu* for Employee Center, *SP Header Menu* for `/sp`), add a menu item of type **URL** with the URL `?id=kb_tree_home`.
+
+   You can also run `scripts/install.js` after the commit: widgets and pages already exist, so it only adds the menu item.
+
+4. Open `/esc?id=kb_tree_home` (or `/sp?id=kb_tree_home`).
+
+### Option B - installer script
 
 1. Select or create an update set, for example *KB Tree Navigation*.
 2. Open **System Definition > Scripts - Background**, keep the scope on **global**.
@@ -52,7 +71,7 @@ Only the bases and articles the user is allowed to read are shown.
 
 The script can be run again: widgets are updated in place, pages and the menu item are only created if they do not exist.
 
-### Option B - manual
+### Option C - manual
 
 1. **Service Portal > Widgets > New**: create each widget from the files in `widgets/` (server script, client controller, HTML template, CSS - SCSS, option schema).
 2. On *KB Tree Navigation*, add the Angular ng-template `kbtree-node.html` (related list **Angular ng-templates**).
@@ -117,6 +136,8 @@ Edit the files in `widgets/`, then rebuild the installer:
 ```sh
 python3 tools/build_install.py
 ```
+
+The update set in `update-set/` is an export from an instance: after changing the widgets, re-export it (capture the records in a new update set, complete it, then **Export to XML**).
 
 ## License
 

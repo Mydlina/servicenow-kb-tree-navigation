@@ -1,0 +1,731 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2026-11-23 17:37:54">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description>Documentation-style tree navigation for knowledge bases in Service Portal / Employee Center: widgets kb-tree-navigation and kb-selector, pages kb_tree_home and kb_tree_article.</description>
+<inserted/>
+<name>KB Tree Navigation 1.0</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>1517222c0f78d7580b517be800d1b2c2</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-11-23 17:37:30</sys_created_on>
+<sys_id>6517262c0f78d7580b517be800d1b2d1</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-11-23 17:37:30</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Collaborative Work Management">cdd2c7fdc393a110174cd0c57d40dd25</application>
+<category>customer</category>
+<comments/>
+<name>sp_container_9ab0426c0f70d7580b517be800d1b22a</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container"><sp_container action="INSERT_OR_UPDATE"><aria_label/><background_color/><background_image/><background_style>default</background_style><bootstrap_alt>false</bootstrap_alt><class_name/><container_class_name/><name>Knowledge bases - Container 1</name><order>1</order><semantic_tag/><sp_page display_value="kb_tree_home">56b0426c0f70d7580b517be800d1b224</sp_page><subheader>false</subheader><sys_class_name>sp_container</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-11-23 14:49:53</sys_created_on><sys_id>9ab0426c0f70d7580b517be800d1b22a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Knowledge bases - Container 1</sys_name><sys_package display_value="Collaborative Work Management" source="sn_cwm">cdd2c7fdc393a110174cd0c57d40dd25</sys_package><sys_policy/><sys_scope display_value="Collaborative Work Management">cdd2c7fdc393a110174cd0c57d40dd25</sys_scope><sys_update_name>sp_container_9ab0426c0f70d7580b517be800d1b22a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-11-23 14:49:53</sys_updated_on><title/><width>container</width></sp_container></record_update>]]></payload>
+<payload_hash>-1509076128</payload_hash>
+<remote_update_set display_value="KB Tree Navigation 1.0">6517262c0f78d7580b517be800d1b2d1</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-11-23 17:37:30</sys_created_on>
+<sys_id>2117262c0f78d7580b517be800d1b2d5</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a2097bfcc70000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-11-23 17:37:30</sys_updated_on>
+<table/>
+<target_name>Knowledge bases - Container 1</target_name>
+<type>Container</type>
+<update_domain>global</update_domain>
+<update_guid>1517262c7578d758aeca727eebb57ba1</update_guid>
+<update_guid_history>1517262c7578d758aeca727eebb57ba1:-1509076128,dab0ce6c2470d758861390278989971f:-1509076128</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sp_ng_template_634b31680f30d7580b517be800d1b2ea</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_ng_template"&gt;&lt;sp_ng_template action="INSERT_OR_UPDATE"&gt;&lt;id&gt;kbtree-node.html&lt;/id&gt;&lt;sp_widget display_value="KB Tree Navigation"&gt;694b7da42bbc57d4683df829fe91bf79&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_ng_template&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-11-23 14:26:13&lt;/sys_created_on&gt;&lt;sys_id&gt;634b31680f30d7580b517be800d1b2ea&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;kbtree-node.html&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_ng_template_634b31680f30d7580b517be800d1b2ea&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-11-23 14:45:55&lt;/sys_updated_on&gt;&lt;template&gt;&lt;![CDATA[&lt;button type="button" class="kbtree-cat" ng-click="node.open = !node.open" aria-expanded="{{node.open}}"&gt;
+  &lt;i class="fa" ng-class="node.open ? 'fa-chevron-down' : 'fa-chevron-right'" aria-hidden="true"&gt;&lt;/i&gt;
+  &lt;span&gt;{{node.label}}&lt;/span&gt;
+&lt;/button&gt;
+&lt;ul class="kbtree-list" ng-show="node.open" role="group"&gt;
+  &lt;li ng-repeat="a in node.articles" role="treeitem"&gt;
+    &lt;a class="kbtree-art" ng-class="{'is-current': a.current}" ng-href="?id={{c.data.pageId}}&amp;kb_id={{c.data.kbId}}&amp;sys_kb_id={{a.id}}"&gt;{{a.label}}&lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li ng-repeat="node in node.children" ng-include="'kbtree-node.html'" role="treeitem"&gt;&lt;/li&gt;
+&lt;/ul&gt;
+]]&gt;&lt;/template&gt;&lt;/sp_ng_template&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1800830237</payload_hash>
+<remote_update_set display_value="KB Tree Navigation 1.0">6517262c0f78d7580b517be800d1b2d1</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-11-23 17:37:30</sys_created_on>
+<sys_id>2517262c0f78d7580b517be800d1b2d7</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a2097bfc530000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-11-23 17:37:30</sys_updated_on>
+<table/>
+<target_name>kbtree-node.html</target_name>
+<type>Angular ng-template</type>
+<update_domain>global</update_domain>
+<update_guid>d117262c6a78d758ed8f4d9f692ec862</update_guid>
+<update_guid_history>d117262c6a78d758ed8f4d9f692ec862:-1800830237,3bcfb12483fc57d4777da0403c0dc1c4:-1800830237,ab4b3168a730d7588ca688f3926472ee:-964045859</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Collaborative Work Management">cdd2c7fdc393a110174cd0c57d40dd25</application>
+<category>customer</category>
+<comments/>
+<name>sp_row_5ab0ce6c0f70d7580b517be800d1b255</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_row"><sp_row action="INSERT_OR_UPDATE"><aria_label/><class_name/><order>1</order><semantic_tag/><sp_column/><sp_container display_value="Knowledge article - Container 1">5ab0ce6c0f70d7580b517be800d1b250</sp_container><sys_class_name>sp_row</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-11-23 14:49:54</sys_created_on><sys_id>5ab0ce6c0f70d7580b517be800d1b255</sys_id><sys_mod_count>0</sys_mod_count><sys_name>1</sys_name><sys_package display_value="Collaborative Work Management" source="sn_cwm">cdd2c7fdc393a110174cd0c57d40dd25</sys_package><sys_policy/><sys_scope display_value="Collaborative Work Management">cdd2c7fdc393a110174cd0c57d40dd25</sys_scope><sys_update_name>sp_row_5ab0ce6c0f70d7580b517be800d1b255</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-11-23 14:49:54</sys_updated_on></sp_row></record_update>]]></payload>
+<payload_hash>469831084</payload_hash>
+<remote_update_set display_value="KB Tree Navigation 1.0">6517262c0f78d7580b517be800d1b2d1</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-11-23 17:37:30</sys_created_on>
+<sys_id>2917262c0f78d7580b517be800d1b2d9</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a2097bfce10000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-11-23 17:37:30</sys_updated_on>
+<table/>
+<target_name>1</target_name>
+<type>Row</type>
+<update_domain>global</update_domain>
+<update_guid>d517262cf078d758f5aeacfce6c93ea4</update_guid>
+<update_guid_history>d517262cf078d758f5aeacfce6c93ea4:469831084,16b0ce6cc170d758b163137017630e58:469831084</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Collaborative Work Management">cdd2c7fdc393a110174cd0c57d40dd25</application>
+<category>customer</category>
+<comments/>
+<name>sp_column_9ab0ce6c0f70d7580b517be800d1b227</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_column"><sp_column action="INSERT_OR_UPDATE"><aria_label/><class_name/><order>1</order><semantic_tag/><size>12</size><size_lg/><size_sm/><size_xs/><sp_row display_value="1">12b0ce6c0f70d7580b517be800d1b222</sp_row><sys_class_name>sp_column</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-11-23 14:49:53</sys_created_on><sys_id>9ab0ce6c0f70d7580b517be800d1b227</sys_id><sys_mod_count>0</sys_mod_count><sys_name>1</sys_name><sys_package display_value="Collaborative Work Management" source="sn_cwm">cdd2c7fdc393a110174cd0c57d40dd25</sys_package><sys_policy/><sys_scope display_value="Collaborative Work Management">cdd2c7fdc393a110174cd0c57d40dd25</sys_scope><sys_update_name>sp_column_9ab0ce6c0f70d7580b517be800d1b227</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-11-23 14:49:53</sys_updated_on></sp_column></record_update>]]></payload>
+<payload_hash>1445026736</payload_hash>
+<remote_update_set display_value="KB Tree Navigation 1.0">6517262c0f78d7580b517be800d1b2d1</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-11-23 17:37:30</sys_created_on>
+<sys_id>6117262c0f78d7580b517be800d1b2d2</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a2097bfd290000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-11-23 17:37:30</sys_updated_on>
+<table/>
+<target_name>1</target_name>
+<type>Column</type>
+<update_domain>global</update_domain>
+<update_guid>1917262cc978d75855de32d3822fd9af</update_guid>
+<update_guid_history>1917262cc978d75855de32d3822fd9af:1445026736,56b0ce6c0d70d7585800a5be63293b2a:1445026736</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sp_widget_694b7da42bbc57d4683df829fe91bf79</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_widget"&gt;&lt;sp_widget action="INSERT_OR_UPDATE"&gt;&lt;category&gt;custom&lt;/category&gt;&lt;client_script&gt;&lt;![CDATA[api.controller = function() {
+	/* KB Tree Navigation - client controller.
+	   When no article branch is open, expand the first level. */
+	var c = this;
+	var anyOpen = false;
+	angular.forEach(c.data.tree, function(n) { if (n.open) anyOpen = true; });
+	if (!anyOpen)
+		angular.forEach(c.data.tree, function(n) { n.open = true; });
+};
+]]&gt;&lt;/client_script&gt;&lt;controller_as&gt;c&lt;/controller_as&gt;&lt;css&gt;/* Colours come from the portal theme ($brand-primary, $text-color). */
+.kbtree {
+  position: sticky;
+  top: 16px;
+  max-height: calc(100vh - 32px);
+  overflow-y: auto;
+  background: #fff;
+  border: 1px solid #d9dce1;
+  border-radius: 4px;
+  padding: 12px 8px 12px 12px;
+  font-size: 13px;
+}
+.kbtree-back { display: inline-block; color: $brand-primary; font-size: 12px; font-weight: 600; margin: 0 4px 8px 4px; }
+.kbtree-title {
+  font-weight: 700; font-size: 15px; color: $text-color;
+  padding: 0 4px 8px 4px; margin-bottom: 6px; border-bottom: 1px solid #eef0f2;
+}
+.kbtree-list { list-style: none; margin: 0; padding-left: 12px; }
+.kbtree &amp;gt; .kbtree-list { padding-left: 0; }
+.kbtree-cat {
+  display: flex; align-items: center; gap: 6px; width: 100%;
+  background: none; border: 0; padding: 4px; text-align: left;
+  font-weight: 600; color: $text-color; cursor: pointer;
+}
+.kbtree-cat .fa { font-size: 10px; width: 10px; opacity: .7; }
+.kbtree-cat:hover, .kbtree-art:hover { background: #f3f4f6; text-decoration: none; }
+.kbtree-art {
+  display: block; padding: 4px 6px 4px 20px; color: $text-color;
+  border-left: 3px solid transparent; text-decoration: none;
+}
+.kbtree-art.is-current { border-left-color: $brand-primary; background: #eef3fb; font-weight: 600; }
+.kbtree-empty { opacity: .7; padding: 4px; }
+&lt;/css&gt;&lt;data_table&gt;sp_instance&lt;/data_table&gt;&lt;demo_data/&gt;&lt;description&gt;Documentation-style tree navigation (categories and articles) for one knowledge base.&lt;/description&gt;&lt;docs/&gt;&lt;field_list/&gt;&lt;has_preview&gt;false&lt;/has_preview&gt;&lt;id&gt;kb-tree-navigation&lt;/id&gt;&lt;internal&gt;false&lt;/internal&gt;&lt;link&gt;&lt;![CDATA[function link(scope, element, attrs, controller) {  }]]&gt;&lt;/link&gt;&lt;name&gt;KB Tree Navigation&lt;/name&gt;&lt;option_schema&gt;[{"name": "kb_id", "label": "Knowledge base (used when the URL has no kb_id)", "type": "reference", "reference": "kb_knowledge_base"}, {"name": "article_page", "label": "Article page id", "type": "string", "default_value": "kb_tree_article"}, {"name": "home_page", "label": "Knowledge base list page id", "type": "string", "default_value": "kb_tree_home"}]&lt;/option_schema&gt;&lt;public&gt;false&lt;/public&gt;&lt;roles/&gt;&lt;script&gt;&lt;![CDATA[(function() {
+	/*
+	 * Widget: KB Tree Navigation
+	 * Builds the category &gt; sub-category &gt; article tree of one knowledge base
+	 * and highlights the article currently displayed on the page.
+	 *
+	 * URL parameters: kb_id, sys_kb_id or sysparm_article (article number).
+	 * Options:        kb_id (fallback), article_page, home_page.
+	 *
+	 * Security: articles are read with GlideRecordSecure, so read ACLs and the
+	 * knowledge user criteria (Can Read / Cannot Read) decide what is listed.
+	 * Categories are read with GlideRecord: empty categories are dropped below,
+	 * so a user never sees a category that holds no article they can read.
+	 */
+	data.kbId = $sp.getParameter('kb_id') || options.kb_id || '';
+	data.pageId = options.article_page || 'kb_tree_article';
+	data.homePage = options.home_page || 'kb_tree_home';
+	data.currentId = '';
+	data.tree = [];
+	data.rootArticles = [];
+
+	var sysKbId = $sp.getParameter('sys_kb_id') || '';
+	var number = $sp.getParameter('sysparm_article') || '';
+
+	// 1. Current article (to highlight it and open its branch)
+	if (sysKbId || number) {
+		var cur = new GlideRecordSecure('kb_knowledge');
+		if (sysKbId) {
+			cur.addQuery('sys_id', sysKbId);
+		} else {
+			cur.addQuery('number', number);
+			cur.addQuery('workflow_state', 'published');
+			cur.addQuery('latest', true);
+			if (data.kbId)
+				cur.addQuery('kb_knowledge_base', data.kbId); // article numbers can repeat across bases
+		}
+		cur.setLimit(1);
+		cur.query();
+		if (cur.next()) {
+			data.currentId = cur.getUniqueValue();
+			data.currentArticleId = cur.getValue('article_id');
+			if (!data.kbId)
+				data.kbId = cur.getValue('kb_knowledge_base');
+		}
+	}
+	if (!data.kbId)
+		return;
+
+	var kb = new GlideRecord('kb_knowledge_base');
+	if (kb.get(data.kbId))
+		data.kbTitle = kb.getDisplayValue('title');
+
+	// 2. Categories of the knowledge base: breadth-first walk, one query per level
+	var nodes = {};
+	var rootNodes = [];
+	var parents = [data.kbId];
+	var depth = 0;
+	while (parents.length &amp;&amp; depth &lt; 8) {
+		var cat = new GlideRecord('kb_category');
+		cat.addQuery('parent_id', 'IN', parents.join(','));
+		cat.addActiveQuery();
+		cat.orderBy('label');
+		cat.query();
+		var next = [];
+		while (cat.next()) {
+			var id = cat.getUniqueValue();
+			var node = { id: id, label: cat.getDisplayValue('label'), children: [], articles: [] };
+			nodes[id] = node;
+			var parentId = cat.getValue('parent_id');
+			if (nodes[parentId])
+				nodes[parentId].children.push(node);
+			else
+				rootNodes.push(node);
+			next.push(id);
+		}
+		parents = next;
+		depth++;
+	}
+
+	// 3. Published articles the user can read, in one query
+	var art = new GlideRecordSecure('kb_knowledge');
+	art.addQuery('kb_knowledge_base', data.kbId);
+	art.addQuery('workflow_state', 'published');
+	art.addQuery('latest', true);
+	art.addQuery('active', true);
+	art.orderBy('number');
+	art.setLimit(1000);
+	art.query();
+	while (art.next()) {
+		var a = {
+			id: art.getUniqueValue(),
+			label: art.getValue('short_description'),
+			current: art.getUniqueValue() == data.currentId ||
+				(!!data.currentArticleId &amp;&amp; art.getValue('article_id') == data.currentArticleId)
+		};
+		var catId = art.getValue('kb_category');
+		if (catId &amp;&amp; nodes[catId])
+			nodes[catId].articles.push(a);
+		else
+			data.rootArticles.push(a);
+	}
+
+	// 4. Open the branch of the current article and drop empty categories
+	function finalize(node) {
+		var open = false;
+		var count = node.articles.length;
+		for (var i = 0; i &lt; node.articles.length; i++)
+			if (node.articles[i].current) open = true;
+		var kept = [];
+		for (var j = 0; j &lt; node.children.length; j++) {
+			var child = node.children[j];
+			finalize(child);
+			if (child.count &gt; 0) {
+				kept.push(child);
+				count += child.count;
+				if (child.open) open = true;
+			}
+		}
+		node.children = kept;
+		node.count = count;
+		node.open = open;
+	}
+	for (var k = 0; k &lt; rootNodes.length; k++) {
+		finalize(rootNodes[k]);
+		if (rootNodes[k].count &gt; 0)
+			data.tree.push(rootNodes[k]);
+	}
+})();
+]]&gt;&lt;/script&gt;&lt;servicenow&gt;false&lt;/servicenow&gt;&lt;sys_class_name&gt;sp_widget&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-11-23 14:26:06&lt;/sys_created_on&gt;&lt;sys_id&gt;694b7da42bbc57d4683df829fe91bf79&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;KB Tree Navigation&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_widget_694b7da42bbc57d4683df829fe91bf79&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-11-23 14:45:54&lt;/sys_updated_on&gt;&lt;template&gt;&lt;![CDATA[&lt;nav class="kbtree" aria-label="{{c.data.kbTitle}}"&gt;
+  &lt;a class="kbtree-back" ng-href="?id={{c.data.homePage}}"&gt;&lt;i class="fa fa-arrow-left" aria-hidden="true"&gt;&lt;/i&gt; ${All knowledge bases}&lt;/a&gt;
+  &lt;div class="kbtree-title"&gt;{{c.data.kbTitle}}&lt;/div&gt;
+  &lt;div ng-if="!c.data.tree.length &amp;&amp; !c.data.rootArticles.length" class="kbtree-empty"&gt;${No article available}&lt;/div&gt;
+  &lt;ul class="kbtree-list" role="tree"&gt;
+    &lt;li ng-repeat="a in c.data.rootArticles" role="treeitem"&gt;
+      &lt;a class="kbtree-art" ng-class="{'is-current': a.current}" ng-href="?id={{c.data.pageId}}&amp;kb_id={{c.data.kbId}}&amp;sys_kb_id={{a.id}}"&gt;{{a.label}}&lt;/a&gt;
+    &lt;/li&gt;
+    &lt;li ng-repeat="node in c.data.tree" ng-include="'kbtree-node.html'" role="treeitem"&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
+]]&gt;&lt;/template&gt;&lt;/sp_widget&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1116587864</payload_hash>
+<remote_update_set display_value="KB Tree Navigation 1.0">6517262c0f78d7580b517be800d1b2d1</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-11-23 17:37:30</sys_created_on>
+<sys_id>6117262c0f78d7580b517be800d1b2da</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a2097bfc2b0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-11-23 17:37:30</sys_updated_on>
+<table/>
+<target_name>KB Tree Navigation</target_name>
+<type>Widget</type>
+<update_domain>global</update_domain>
+<update_guid>1117262c0578d758782210809665d55f</update_guid>
+<update_guid_history>1117262c0578d758782210809665d55f:-1116587864,ffcfb124cbfc57d4d4b459fc8fd195b8:-1116587864,5b9efda42470d7589c3ed9c9cdeb4395:-1301472877,694b7da439bc57d46e408c0f30e45aa4:-823444594</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Collaborative Work Management">cdd2c7fdc393a110174cd0c57d40dd25</application>
+<category>customer</category>
+<comments/>
+<name>sp_column_d6b0ce6c0f70d7580b517be800d1b25a</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_column"><sp_column action="INSERT_OR_UPDATE"><aria_label/><class_name/><order>1</order><semantic_tag/><size>3</size><size_lg/><size_sm/><size_xs/><sp_row display_value="1">5ab0ce6c0f70d7580b517be800d1b255</sp_row><sys_class_name>sp_column</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-11-23 14:49:54</sys_created_on><sys_id>d6b0ce6c0f70d7580b517be800d1b25a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>1</sys_name><sys_package display_value="Collaborative Work Management" source="sn_cwm">cdd2c7fdc393a110174cd0c57d40dd25</sys_package><sys_policy/><sys_scope display_value="Collaborative Work Management">cdd2c7fdc393a110174cd0c57d40dd25</sys_scope><sys_update_name>sp_column_d6b0ce6c0f70d7580b517be800d1b25a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-11-23 14:49:54</sys_updated_on></sp_column></record_update>]]></payload>
+<payload_hash>-1905712853</payload_hash>
+<remote_update_set display_value="KB Tree Navigation 1.0">6517262c0f78d7580b517be800d1b2d1</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-11-23 17:37:30</sys_created_on>
+<sys_id>6517262c0f78d7580b517be800d1b2d3</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a2097bfd080000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-11-23 17:37:30</sys_updated_on>
+<table/>
+<target_name>1</target_name>
+<type>Column</type>
+<update_domain>global</update_domain>
+<update_guid>5517262c8078d75879ca34876db89eaa</update_guid>
+<update_guid_history>5517262c8078d75879ca34876db89eaa:-1905712853,92b0ce6ced70d75876178b4a272c185d:-1905712853</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Collaborative Work Management">cdd2c7fdc393a110174cd0c57d40dd25</application>
+<category>customer</category>
+<comments/>
+<name>sp_instance_1ab0ce6c0f70d7580b517be800d1b22c</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance"&gt;&lt;sp_instance action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;advanced_placeholder_dimensions&gt;false&lt;/advanced_placeholder_dimensions&gt;&lt;async_load&gt;false&lt;/async_load&gt;&lt;async_load_device_type&gt;desktop,tablet,mobile&lt;/async_load_device_type&gt;&lt;async_load_trigger&gt;viewport&lt;/async_load_trigger&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css/&gt;&lt;glyph/&gt;&lt;id/&gt;&lt;order&gt;1&lt;/order&gt;&lt;placeholder_dimensions&gt;{&amp;#13;	"mobile": {&amp;#13;		"height": "250px",&amp;#13;		"width": "100%"&amp;#13;	},&amp;#13;	"desktop": {&amp;#13;		"height": "250px",&amp;#13;		"width": "100%"&amp;#13;	},&amp;#13;	"tablet": {&amp;#13;		"height": "250px",&amp;#13;		"width": "100%"&amp;#13;	}&amp;#13;}&lt;/placeholder_dimensions&gt;&lt;placeholder_dimensions_script&gt;&lt;![CDATA[function evaluateConfig(options) { return {	"mobile": {		"height": "250px",		"width": "100%"	},	"desktop": {		"height": "250px",		"width": "100%"	},	"tablet": {		"height": "250px",		"width": "100%"	}}; }]]&gt;&lt;/placeholder_dimensions_script&gt;&lt;placeholder_template&gt;&amp;lt;!-- 
+	AngularJS template with configurable options.
+	Use the `options` object to control dynamic behavior.
+	Example: Display an element when max row count is 10:
+	&amp;lt;div ng-if="options.maxRowCount === 10"&amp;gt;&amp;lt;/div&amp;gt;
+	The `skeleton-container` class is used for loading placeholders.
+--&amp;gt;
+	&amp;lt;div class="skeleton-container"&amp;gt;
+	&amp;lt;!-- Header Skeleton --&amp;gt;
+	&amp;lt;div class="skeleton-box skeleton-header"&amp;gt;&amp;lt;/div&amp;gt;
+	&amp;lt;!-- Body Skeleton --&amp;gt;
+	&amp;lt;div class="skeleton-box skeleton-line"&amp;gt;&amp;lt;/div&amp;gt;
+	&amp;lt;div class="skeleton-box skeleton-line small"&amp;gt;&amp;lt;/div&amp;gt;
+	&amp;lt;div class="skeleton-box skeleton-line medium"&amp;gt;&amp;lt;/div&amp;gt;
+&amp;lt;/div&amp;gt;&lt;/placeholder_template&gt;&lt;preserve_placeholder_size&gt;false&lt;/preserve_placeholder_size&gt;&lt;roles/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="1"&gt;9ab0ce6c0f70d7580b517be800d1b227&lt;/sp_column&gt;&lt;sp_widget display_value="KB Selector"&gt;8d8e79a40f70d7580b517be800d1b281&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-11-23 14:49:53&lt;/sys_created_on&gt;&lt;sys_id&gt;1ab0ce6c0f70d7580b517be800d1b22c&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Collaborative Work Management" source="sn_cwm"&gt;cdd2c7fdc393a110174cd0c57d40dd25&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Collaborative Work Management"&gt;cdd2c7fdc393a110174cd0c57d40dd25&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_1ab0ce6c0f70d7580b517be800d1b22c&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-11-23 14:49:53&lt;/sys_updated_on&gt;&lt;title/&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{"article_page":{"value":"kb_tree_article"}}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=1ab0ce6c0f70d7580b517be800d1b22c"/&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-538098903</payload_hash>
+<remote_update_set display_value="KB Tree Navigation 1.0">6517262c0f78d7580b517be800d1b2d1</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-11-23 17:37:30</sys_created_on>
+<sys_id>6917262c0f78d7580b517be800d1b2d5</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a2097bfd940000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-11-23 17:37:30</sys_updated_on>
+<table/>
+<target_name/>
+<type>Instance</type>
+<update_domain>global</update_domain>
+<update_guid>6917262c1c78d7586f42dd7c8ebdaac6</update_guid>
+<update_guid_history>6917262c1c78d7586f42dd7c8ebdaac6:-538098903,92b0ce6c1f70d7584f260f59f2bd3d30:-538098903</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Collaborative Work Management">cdd2c7fdc393a110174cd0c57d40dd25</application>
+<category>customer</category>
+<comments/>
+<name>sp_page_56b0426c0f70d7580b517be800d1b224</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_page"><sp_page action="INSERT_OR_UPDATE"><category>custom</category><css/><draft>false</draft><dynamic_title_structure/><human_readable_url_structure/><id>kb_tree_home</id><internal>false</internal><omit_watcher>false</omit_watcher><public>false</public><roles/><seo_script/><short_description/><sys_class_name>sp_page</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-11-23 14:49:53</sys_created_on><sys_id>56b0426c0f70d7580b517be800d1b224</sys_id><sys_mod_count>0</sys_mod_count><sys_name>kb_tree_home</sys_name><sys_package display_value="Collaborative Work Management" source="sn_cwm">cdd2c7fdc393a110174cd0c57d40dd25</sys_package><sys_policy/><sys_scope display_value="Collaborative Work Management">cdd2c7fdc393a110174cd0c57d40dd25</sys_scope><sys_update_name>sp_page_56b0426c0f70d7580b517be800d1b224</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-11-23 14:49:53</sys_updated_on><title>Knowledge bases</title><use_seo_script>false</use_seo_script></sp_page><sys_translated_text action="delete_multiple" query="documentkey=56b0426c0f70d7580b517be800d1b224"/></record_update>]]></payload>
+<payload_hash>1045956443</payload_hash>
+<remote_update_set display_value="KB Tree Navigation 1.0">6517262c0f78d7580b517be800d1b2d1</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-11-23 17:37:30</sys_created_on>
+<sys_id>6d17262c0f78d7580b517be800d1b2d7</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a2097bfc9d0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-11-23 17:37:30</sys_updated_on>
+<table/>
+<target_name>kb_tree_home</target_name>
+<type>Page</type>
+<update_domain>global</update_domain>
+<update_guid>9117262c9778d758b6f832c00867c19b</update_guid>
+<update_guid_history>9117262c9778d758b6f832c00867c19b:1045956443,56b0426c0a70d758575565a6d076ae28:1045956443</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Collaborative Work Management">cdd2c7fdc393a110174cd0c57d40dd25</application>
+<category>customer</category>
+<comments/>
+<name>sp_instance_56b0ce6c0f70d7580b517be800d1b25f</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance"&gt;&lt;sp_instance action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;advanced_placeholder_dimensions&gt;false&lt;/advanced_placeholder_dimensions&gt;&lt;async_load&gt;false&lt;/async_load&gt;&lt;async_load_device_type&gt;desktop,tablet,mobile&lt;/async_load_device_type&gt;&lt;async_load_trigger&gt;viewport&lt;/async_load_trigger&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css/&gt;&lt;glyph/&gt;&lt;id/&gt;&lt;order&gt;1&lt;/order&gt;&lt;placeholder_dimensions&gt;{&amp;#13;	"mobile": {&amp;#13;		"height": "250px",&amp;#13;		"width": "100%"&amp;#13;	},&amp;#13;	"desktop": {&amp;#13;		"height": "250px",&amp;#13;		"width": "100%"&amp;#13;	},&amp;#13;	"tablet": {&amp;#13;		"height": "250px",&amp;#13;		"width": "100%"&amp;#13;	}&amp;#13;}&lt;/placeholder_dimensions&gt;&lt;placeholder_dimensions_script&gt;&lt;![CDATA[function evaluateConfig(options) { return {	"mobile": {		"height": "250px",		"width": "100%"	},	"desktop": {		"height": "250px",		"width": "100%"	},	"tablet": {		"height": "250px",		"width": "100%"	}}; }]]&gt;&lt;/placeholder_dimensions_script&gt;&lt;placeholder_template&gt;&amp;lt;!-- 
+	AngularJS template with configurable options.
+	Use the `options` object to control dynamic behavior.
+	Example: Display an element when max row count is 10:
+	&amp;lt;div ng-if="options.maxRowCount === 10"&amp;gt;&amp;lt;/div&amp;gt;
+	The `skeleton-container` class is used for loading placeholders.
+--&amp;gt;
+	&amp;lt;div class="skeleton-container"&amp;gt;
+	&amp;lt;!-- Header Skeleton --&amp;gt;
+	&amp;lt;div class="skeleton-box skeleton-header"&amp;gt;&amp;lt;/div&amp;gt;
+	&amp;lt;!-- Body Skeleton --&amp;gt;
+	&amp;lt;div class="skeleton-box skeleton-line"&amp;gt;&amp;lt;/div&amp;gt;
+	&amp;lt;div class="skeleton-box skeleton-line small"&amp;gt;&amp;lt;/div&amp;gt;
+	&amp;lt;div class="skeleton-box skeleton-line medium"&amp;gt;&amp;lt;/div&amp;gt;
+&amp;lt;/div&amp;gt;&lt;/placeholder_template&gt;&lt;preserve_placeholder_size&gt;false&lt;/preserve_placeholder_size&gt;&lt;roles/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="1"&gt;d6b0ce6c0f70d7580b517be800d1b25a&lt;/sp_column&gt;&lt;sp_widget display_value="KB Tree Navigation"&gt;694b7da42bbc57d4683df829fe91bf79&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-11-23 14:49:54&lt;/sys_created_on&gt;&lt;sys_id&gt;56b0ce6c0f70d7580b517be800d1b25f&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Collaborative Work Management" source="sn_cwm"&gt;cdd2c7fdc393a110174cd0c57d40dd25&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Collaborative Work Management"&gt;cdd2c7fdc393a110174cd0c57d40dd25&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_56b0ce6c0f70d7580b517be800d1b25f&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-11-23 14:49:54&lt;/sys_updated_on&gt;&lt;title/&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{"article_page":{"value":"kb_tree_article"},"home_page":{"value":"kb_tree_home"}}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=56b0ce6c0f70d7580b517be800d1b25f"/&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-482838837</payload_hash>
+<remote_update_set display_value="KB Tree Navigation 1.0">6517262c0f78d7580b517be800d1b2d1</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-11-23 17:37:30</sys_created_on>
+<sys_id>a117262c0f78d7580b517be800d1b2d6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a2097bfd610000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-11-23 17:37:30</sys_updated_on>
+<table/>
+<target_name/>
+<type>Instance</type>
+<update_domain>global</update_domain>
+<update_guid>e117262c6478d758163f931d89e955c0</update_guid>
+<update_guid_history>e117262c6478d758163f931d89e955c0:-482838837,1ab0ce6c1370d75869fea89ebd2f2c62:-482838837</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Collaborative Work Management">cdd2c7fdc393a110174cd0c57d40dd25</application>
+<category>customer</category>
+<comments/>
+<name>sp_page_dab0ce6c0f70d7580b517be800d1b232</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_page"><sp_page action="INSERT_OR_UPDATE"><category>custom</category><css/><draft>false</draft><dynamic_title_structure/><human_readable_url_structure/><id>kb_tree_article</id><internal>false</internal><omit_watcher>false</omit_watcher><public>false</public><roles/><seo_script/><short_description/><sys_class_name>sp_page</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-11-23 14:49:53</sys_created_on><sys_id>dab0ce6c0f70d7580b517be800d1b232</sys_id><sys_mod_count>0</sys_mod_count><sys_name>kb_tree_article</sys_name><sys_package display_value="Collaborative Work Management" source="sn_cwm">cdd2c7fdc393a110174cd0c57d40dd25</sys_package><sys_policy/><sys_scope display_value="Collaborative Work Management">cdd2c7fdc393a110174cd0c57d40dd25</sys_scope><sys_update_name>sp_page_dab0ce6c0f70d7580b517be800d1b232</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-11-23 14:49:53</sys_updated_on><title>Knowledge article</title><use_seo_script>false</use_seo_script></sp_page><sys_translated_text action="delete_multiple" query="documentkey=dab0ce6c0f70d7580b517be800d1b232"/></record_update>]]></payload>
+<payload_hash>-1493238163</payload_hash>
+<remote_update_set display_value="KB Tree Navigation 1.0">6517262c0f78d7580b517be800d1b2d1</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-11-23 17:37:30</sys_created_on>
+<sys_id>a517262c0f78d7580b517be800d1b2d8</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a2097bfc840000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-11-23 17:37:30</sys_updated_on>
+<table/>
+<target_name>kb_tree_article</target_name>
+<type>Page</type>
+<update_domain>global</update_domain>
+<update_guid>d517262cc878d758f5d01f2965fa5466</update_guid>
+<update_guid_history>d517262cc878d758f5d01f2965fa5466:-1493238163,1ab0ce6c8170d75888eb8ad5af167d35:-1493238163</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sp_widget_8d8e79a40f70d7580b517be800d1b281</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_widget"&gt;&lt;sp_widget action="INSERT_OR_UPDATE"&gt;&lt;category&gt;custom&lt;/category&gt;&lt;client_script&gt;&lt;![CDATA[api.controller = function() {
+	/* KB Selector - client controller (filter box only). */
+	var c = this;
+	c.filter = '';
+};
+]]&gt;&lt;/client_script&gt;&lt;controller_as&gt;c&lt;/controller_as&gt;&lt;css&gt;/* Colours come from the portal theme ($brand-primary, $text-color). */
+.kbsel { padding: 16px 0 32px 0; }
+.kbsel-title { color: $text-color; font-size: 28px; font-weight: 700; margin: 0 0 4px 0; }
+.kbsel-intro { opacity: .75; margin-bottom: 16px; }
+.kbsel-filter { max-width: 420px; margin-bottom: 20px; }
+.kbsel-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 16px; }
+.kbsel-card {
+  display: flex; flex-direction: column; gap: 8px; min-height: 140px;
+  background: #fff; border: 1px solid #d9dce1; border-top: 4px solid $brand-primary;
+  border-radius: 4px; padding: 16px; color: $text-color; text-decoration: none;
+}
+.kbsel-card:hover, .kbsel-card:focus { box-shadow: 0 2px 8px rgba(0,0,0,.12); text-decoration: none; }
+.kbsel-card-title { font-weight: 700; font-size: 16px; }
+.kbsel-card-desc { opacity: .75; font-size: 13px; flex: 1;
+  display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+.kbsel-card-go { color: $brand-primary; font-weight: 600; font-size: 13px; margin-top: auto; }
+.kbsel-empty { opacity: .75; }
+&lt;/css&gt;&lt;data_table&gt;sp_instance&lt;/data_table&gt;&lt;demo_data/&gt;&lt;description&gt;Lists the knowledge bases the user can read and opens them in the tree navigation page.&lt;/description&gt;&lt;docs/&gt;&lt;field_list/&gt;&lt;has_preview&gt;false&lt;/has_preview&gt;&lt;id&gt;kb-selector&lt;/id&gt;&lt;internal&gt;false&lt;/internal&gt;&lt;link&gt;&lt;![CDATA[function link(scope, element, attrs, controller) {  }]]&gt;&lt;/link&gt;&lt;name&gt;KB Selector&lt;/name&gt;&lt;option_schema&gt;[{"name": "article_page", "label": "Article page id", "type": "string", "default_value": "kb_tree_article"}]&lt;/option_schema&gt;&lt;public&gt;false&lt;/public&gt;&lt;roles/&gt;&lt;script&gt;&lt;![CDATA[(function() {
+	/*
+	 * Widget: KB Selector
+	 * Lists the active knowledge bases that hold at least one published article
+	 * the current user can read. Each card opens the base in the tree page,
+	 * on its first article (lowest number).
+	 *
+	 * Security: the check uses GlideRecordSecure on kb_knowledge, so knowledge
+	 * user criteria apply. A base with no readable article is not listed.
+	 * Performance: one setLimit(1) query per base. Fine for a few dozen bases;
+	 * add caching beyond that.
+	 */
+	data.pageId = options.article_page || 'kb_tree_article';
+	data.kbs = [];
+
+	var kb = new GlideRecord('kb_knowledge_base');
+	kb.addActiveQuery();
+	kb.orderBy('title');
+	kb.setLimit(100);
+	kb.query();
+	while (kb.next()) {
+		var art = new GlideRecordSecure('kb_knowledge');
+		art.addQuery('kb_knowledge_base', kb.getUniqueValue());
+		art.addQuery('workflow_state', 'published');
+		art.addQuery('latest', true);
+		art.addQuery('active', true);
+		art.orderBy('number');
+		art.setLimit(1);
+		art.query();
+		if (!art.next())
+			continue;
+		data.kbs.push({
+			id: kb.getUniqueValue(),
+			title: kb.getDisplayValue('title'),
+			description: kb.getValue('description') || '',
+			firstArticle: art.getUniqueValue()
+		});
+	}
+})();
+]]&gt;&lt;/script&gt;&lt;servicenow&gt;false&lt;/servicenow&gt;&lt;sys_class_name&gt;sp_widget&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-11-23 14:40:15&lt;/sys_created_on&gt;&lt;sys_id&gt;8d8e79a40f70d7580b517be800d1b281&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;KB Selector&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_widget_8d8e79a40f70d7580b517be800d1b281&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-11-23 14:45:21&lt;/sys_updated_on&gt;&lt;template&gt;&lt;![CDATA[&lt;div class="kbsel"&gt;
+  &lt;h1 class="kbsel-title"&gt;${Knowledge bases}&lt;/h1&gt;
+  &lt;p class="kbsel-intro"&gt;${Select a knowledge base to browse its content.}&lt;/p&gt;
+  &lt;div class="kbsel-filter"&gt;
+    &lt;input type="search" class="form-control" ng-model="c.filter" placeholder="${Filter knowledge bases}" aria-label="${Filter knowledge bases}"&gt;
+  &lt;/div&gt;
+  &lt;div ng-if="!c.data.kbs.length" class="kbsel-empty"&gt;${No knowledge base available}&lt;/div&gt;
+  &lt;div class="kbsel-grid"&gt;
+    &lt;a class="kbsel-card" ng-repeat="k in c.data.kbs | filter:{title: c.filter}"
+       ng-href="?id={{c.data.pageId}}&amp;kb_id={{k.id}}&amp;sys_kb_id={{k.firstArticle}}"&gt;
+      &lt;span class="kbsel-card-title"&gt;{{k.title}}&lt;/span&gt;
+      &lt;span class="kbsel-card-desc" ng-if="k.description"&gt;{{k.description}}&lt;/span&gt;
+      &lt;span class="kbsel-card-go"&gt;${Open} &lt;i class="fa fa-arrow-right" aria-hidden="true"&gt;&lt;/i&gt;&lt;/span&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+]]&gt;&lt;/template&gt;&lt;/sp_widget&gt;&lt;/record_update&gt;</payload>
+<payload_hash>594602475</payload_hash>
+<remote_update_set display_value="KB Tree Navigation 1.0">6517262c0f78d7580b517be800d1b2d1</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-11-23 17:37:30</sys_created_on>
+<sys_id>a917262c0f78d7580b517be800d1b2da</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a2097bfbe50000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-11-23 17:37:30</sys_updated_on>
+<table/>
+<target_name>KB Selector</target_name>
+<type>Widget</type>
+<update_domain>global</update_domain>
+<update_guid>5d17262c2b78d758a35e0f8ba67ef55b</update_guid>
+<update_guid_history>5d17262c2b78d758a35e0f8ba67ef55b:594602475,67af7de049fc57d40b1e0eb34762db08:594602475,458e79a44a70d758d7f641f678bc3e89:1158061707</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Collaborative Work Management">cdd2c7fdc393a110174cd0c57d40dd25</application>
+<category>customer</category>
+<comments/>
+<name>sp_column_dab0ce6c0f70d7580b517be800d1b264</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_column"><sp_column action="INSERT_OR_UPDATE"><aria_label/><class_name/><order>2</order><semantic_tag/><size>9</size><size_lg/><size_sm/><size_xs/><sp_row display_value="1">5ab0ce6c0f70d7580b517be800d1b255</sp_row><sys_class_name>sp_column</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-11-23 14:49:54</sys_created_on><sys_id>dab0ce6c0f70d7580b517be800d1b264</sys_id><sys_mod_count>0</sys_mod_count><sys_name>2</sys_name><sys_package display_value="Collaborative Work Management" source="sn_cwm">cdd2c7fdc393a110174cd0c57d40dd25</sys_package><sys_policy/><sys_scope display_value="Collaborative Work Management">cdd2c7fdc393a110174cd0c57d40dd25</sys_scope><sys_update_name>sp_column_dab0ce6c0f70d7580b517be800d1b264</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-11-23 14:49:54</sys_updated_on></sp_column></record_update>]]></payload>
+<payload_hash>1609109841</payload_hash>
+<remote_update_set display_value="KB Tree Navigation 1.0">6517262c0f78d7580b517be800d1b2d1</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-11-23 17:37:30</sys_created_on>
+<sys_id>ad17262c0f78d7580b517be800d1b2d3</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a2097bfd180000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-11-23 17:37:30</sys_updated_on>
+<table/>
+<target_name>2</target_name>
+<type>Column</type>
+<update_domain>global</update_domain>
+<update_guid>9d17262c2878d758dd0ca682e054baac</update_guid>
+<update_guid_history>9d17262c2878d758dd0ca682e054baac:1609109841,16b0ce6c4d70d75814ae9e57bfc1fb67:1609109841</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Collaborative Work Management">cdd2c7fdc393a110174cd0c57d40dd25</application>
+<category>customer</category>
+<comments/>
+<name>sp_container_5ab0ce6c0f70d7580b517be800d1b250</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container"><sp_container action="INSERT_OR_UPDATE"><aria_label/><background_color/><background_image/><background_style>default</background_style><bootstrap_alt>false</bootstrap_alt><class_name/><container_class_name/><name>Knowledge article - Container 1</name><order>1</order><semantic_tag/><sp_page display_value="kb_tree_article">dab0ce6c0f70d7580b517be800d1b232</sp_page><subheader>false</subheader><sys_class_name>sp_container</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-11-23 14:49:54</sys_created_on><sys_id>5ab0ce6c0f70d7580b517be800d1b250</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Knowledge article - Container 1</sys_name><sys_package display_value="Collaborative Work Management" source="sn_cwm">cdd2c7fdc393a110174cd0c57d40dd25</sys_package><sys_policy/><sys_scope display_value="Collaborative Work Management">cdd2c7fdc393a110174cd0c57d40dd25</sys_scope><sys_update_name>sp_container_5ab0ce6c0f70d7580b517be800d1b250</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-11-23 14:49:54</sys_updated_on><title/><width>container</width></sp_container></record_update>]]></payload>
+<payload_hash>-1145237182</payload_hash>
+<remote_update_set display_value="KB Tree Navigation 1.0">6517262c0f78d7580b517be800d1b2d1</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-11-23 17:37:30</sys_created_on>
+<sys_id>e517262c0f78d7580b517be800d1b2d4</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a2097bfcb40000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-11-23 17:37:30</sys_updated_on>
+<table/>
+<target_name>Knowledge article - Container 1</target_name>
+<type>Container</type>
+<update_domain>global</update_domain>
+<update_guid>d517262c2878d7584a842726ea4f5e9e</update_guid>
+<update_guid_history>d517262c2878d7584a842726ea4f5e9e:-1145237182,96b0ce6c1b70d7586b8d50693fd54453:-1145237182</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Collaborative Work Management">cdd2c7fdc393a110174cd0c57d40dd25</application>
+<category>customer</category>
+<comments/>
+<name>sp_instance_d6b0ce6c0f70d7580b517be800d1b269</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance"&gt;&lt;sp_instance action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;advanced_placeholder_dimensions&gt;false&lt;/advanced_placeholder_dimensions&gt;&lt;async_load&gt;false&lt;/async_load&gt;&lt;async_load_device_type&gt;desktop,tablet,mobile&lt;/async_load_device_type&gt;&lt;async_load_trigger&gt;viewport&lt;/async_load_trigger&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css/&gt;&lt;glyph/&gt;&lt;id/&gt;&lt;order&gt;1&lt;/order&gt;&lt;placeholder_dimensions&gt;{&amp;#13;	"mobile": {&amp;#13;		"height": "250px",&amp;#13;		"width": "100%"&amp;#13;	},&amp;#13;	"desktop": {&amp;#13;		"height": "250px",&amp;#13;		"width": "100%"&amp;#13;	},&amp;#13;	"tablet": {&amp;#13;		"height": "250px",&amp;#13;		"width": "100%"&amp;#13;	}&amp;#13;}&lt;/placeholder_dimensions&gt;&lt;placeholder_dimensions_script&gt;&lt;![CDATA[function evaluateConfig(options) { return {	"mobile": {		"height": "250px",		"width": "100%"	},	"desktop": {		"height": "250px",		"width": "100%"	},	"tablet": {		"height": "250px",		"width": "100%"	}}; }]]&gt;&lt;/placeholder_dimensions_script&gt;&lt;placeholder_template&gt;&amp;lt;!-- 
+	AngularJS template with configurable options.
+	Use the `options` object to control dynamic behavior.
+	Example: Display an element when max row count is 10:
+	&amp;lt;div ng-if="options.maxRowCount === 10"&amp;gt;&amp;lt;/div&amp;gt;
+	The `skeleton-container` class is used for loading placeholders.
+--&amp;gt;
+	&amp;lt;div class="skeleton-container"&amp;gt;
+	&amp;lt;!-- Header Skeleton --&amp;gt;
+	&amp;lt;div class="skeleton-box skeleton-header"&amp;gt;&amp;lt;/div&amp;gt;
+	&amp;lt;!-- Body Skeleton --&amp;gt;
+	&amp;lt;div class="skeleton-box skeleton-line"&amp;gt;&amp;lt;/div&amp;gt;
+	&amp;lt;div class="skeleton-box skeleton-line small"&amp;gt;&amp;lt;/div&amp;gt;
+	&amp;lt;div class="skeleton-box skeleton-line medium"&amp;gt;&amp;lt;/div&amp;gt;
+&amp;lt;/div&amp;gt;&lt;/placeholder_template&gt;&lt;preserve_placeholder_size&gt;false&lt;/preserve_placeholder_size&gt;&lt;roles/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="2"&gt;dab0ce6c0f70d7580b517be800d1b264&lt;/sp_column&gt;&lt;sp_widget display_value="Knowledge Article Content"&gt;a47ea1cb0b9432004ce28ffe15673a5b&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-11-23 14:49:54&lt;/sys_created_on&gt;&lt;sys_id&gt;d6b0ce6c0f70d7580b517be800d1b269&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Collaborative Work Management" source="sn_cwm"&gt;cdd2c7fdc393a110174cd0c57d40dd25&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Collaborative Work Management"&gt;cdd2c7fdc393a110174cd0c57d40dd25&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_d6b0ce6c0f70d7580b517be800d1b269&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-11-23 14:49:54&lt;/sys_updated_on&gt;&lt;title/&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=d6b0ce6c0f70d7580b517be800d1b269"/&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1760135689</payload_hash>
+<remote_update_set display_value="KB Tree Navigation 1.0">6517262c0f78d7580b517be800d1b2d1</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-11-23 17:37:30</sys_created_on>
+<sys_id>e917262c0f78d7580b517be800d1b2d6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a2097bfd7b0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-11-23 17:37:30</sys_updated_on>
+<table/>
+<target_name/>
+<type>Instance</type>
+<update_domain>global</update_domain>
+<update_guid>e517262c5478d7581aea4b34e6ca8ac3</update_guid>
+<update_guid_history>e517262c5478d7581aea4b34e6ca8ac3:1760135689,9ab0ce6cb870d7586ef9b93dac188c6c:1760135689</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Collaborative Work Management">cdd2c7fdc393a110174cd0c57d40dd25</application>
+<category>customer</category>
+<comments/>
+<name>sp_row_12b0ce6c0f70d7580b517be800d1b222</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_row"><sp_row action="INSERT_OR_UPDATE"><aria_label/><class_name/><order>1</order><semantic_tag/><sp_column/><sp_container display_value="Knowledge bases - Container 1">9ab0426c0f70d7580b517be800d1b22a</sp_container><sys_class_name>sp_row</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-11-23 14:49:53</sys_created_on><sys_id>12b0ce6c0f70d7580b517be800d1b222</sys_id><sys_mod_count>0</sys_mod_count><sys_name>1</sys_name><sys_package display_value="Collaborative Work Management" source="sn_cwm">cdd2c7fdc393a110174cd0c57d40dd25</sys_package><sys_policy/><sys_scope display_value="Collaborative Work Management">cdd2c7fdc393a110174cd0c57d40dd25</sys_scope><sys_update_name>sp_row_12b0ce6c0f70d7580b517be800d1b222</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-11-23 14:49:53</sys_updated_on></sp_row></record_update>]]></payload>
+<payload_hash>-403559692</payload_hash>
+<remote_update_set display_value="KB Tree Navigation 1.0">6517262c0f78d7580b517be800d1b2d1</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-11-23 17:37:30</sys_created_on>
+<sys_id>ed17262c0f78d7580b517be800d1b2d8</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a2097bfcf30000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-11-23 17:37:30</sys_updated_on>
+<table/>
+<target_name>1</target_name>
+<type>Row</type>
+<update_domain>global</update_domain>
+<update_guid>9117262c5878d758369f626c528930a7</update_guid>
+<update_guid_history>9117262c5878d758369f626c528930a7:-403559692,56b0ce6c3370d758f3af4fc200e1df25:-403559692</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>
