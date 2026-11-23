@@ -1,0 +1,17 @@
+/* Colours come from the portal theme ($brand-primary, $text-color). */
+.kbsel { padding: 16px 0 32px 0; }
+.kbsel-title { color: $text-color; font-size: 28px; font-weight: 700; margin: 0 0 4px 0; }
+.kbsel-intro { opacity: .75; margin-bottom: 16px; }
+.kbsel-filter { max-width: 420px; margin-bottom: 20px; }
+.kbsel-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 16px; }
+.kbsel-card {
+  display: flex; flex-direction: column; gap: 8px; min-height: 140px;
+  background: #fff; border: 1px solid #d9dce1; border-top: 4px solid $brand-primary;
+  border-radius: 4px; padding: 16px; color: $text-color; text-decoration: none;
+}
+.kbsel-card:hover, .kbsel-card:focus { box-shadow: 0 2px 8px rgba(0,0,0,.12); text-decoration: none; }
+.kbsel-card-title { font-weight: 700; font-size: 16px; }
+.kbsel-card-desc { opacity: .75; font-size: 13px; flex: 1;
+  display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+.kbsel-card-go { color: $brand-primary; font-weight: 600; font-size: 13px; margin-top: auto; }
+.kbsel-empty { opacity: .75; }

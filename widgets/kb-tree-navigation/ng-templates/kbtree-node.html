@@ -1,0 +1,10 @@
+<button type="button" class="kbtree-cat" ng-click="node.open = !node.open" aria-expanded="{{node.open}}">
+  <i class="fa" ng-class="node.open ? 'fa-chevron-down' : 'fa-chevron-right'" aria-hidden="true"></i>
+  <span>{{node.label}}</span>
+</button>
+<ul class="kbtree-list" ng-show="node.open" role="group">
+  <li ng-repeat="a in node.articles" role="treeitem">
+    <a class="kbtree-art" ng-class="{'is-current': a.current}" ng-href="?id={{c.data.pageId}}&kb_id={{c.data.kbId}}&sys_kb_id={{a.id}}">{{a.label}}</a>
+  </li>
+  <li ng-repeat="node in node.children" ng-include="'kbtree-node.html'" role="treeitem"></li>
+</ul>

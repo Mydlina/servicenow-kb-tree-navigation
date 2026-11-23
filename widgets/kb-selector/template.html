@@ -1,0 +1,16 @@
+<div class="kbsel">
+  <h1 class="kbsel-title">${Knowledge bases}</h1>
+  <p class="kbsel-intro">${Select a knowledge base to browse its content.}</p>
+  <div class="kbsel-filter">
+    <input type="search" class="form-control" ng-model="c.filter" placeholder="${Filter knowledge bases}" aria-label="${Filter knowledge bases}">
+  </div>
+  <div ng-if="!c.data.kbs.length" class="kbsel-empty">${No knowledge base available}</div>
+  <div class="kbsel-grid">
+    <a class="kbsel-card" ng-repeat="k in c.data.kbs | filter:{title: c.filter}"
+       ng-href="?id={{c.data.pageId}}&kb_id={{k.id}}&sys_kb_id={{k.firstArticle}}">
+      <span class="kbsel-card-title">{{k.title}}</span>
+      <span class="kbsel-card-desc" ng-if="k.description">{{k.description}}</span>
+      <span class="kbsel-card-go">${Open} <i class="fa fa-arrow-right" aria-hidden="true"></i></span>
+    </a>
+  </div>
+</div>

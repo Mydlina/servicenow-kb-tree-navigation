@@ -1,0 +1,11 @@
+<nav class="kbtree" aria-label="{{c.data.kbTitle}}">
+  <a class="kbtree-back" ng-href="?id={{c.data.homePage}}"><i class="fa fa-arrow-left" aria-hidden="true"></i> ${All knowledge bases}</a>
+  <div class="kbtree-title">{{c.data.kbTitle}}</div>
+  <div ng-if="!c.data.tree.length && !c.data.rootArticles.length" class="kbtree-empty">${No article available}</div>
+  <ul class="kbtree-list" role="tree">
+    <li ng-repeat="a in c.data.rootArticles" role="treeitem">
+      <a class="kbtree-art" ng-class="{'is-current': a.current}" ng-href="?id={{c.data.pageId}}&kb_id={{c.data.kbId}}&sys_kb_id={{a.id}}">{{a.label}}</a>
+    </li>
+    <li ng-repeat="node in c.data.tree" ng-include="'kbtree-node.html'" role="treeitem"></li>
+  </ul>
+</nav>

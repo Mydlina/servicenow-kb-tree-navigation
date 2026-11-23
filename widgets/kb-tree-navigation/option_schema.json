@@ -1,0 +1,5 @@
+[
+  {"name": "kb_id", "label": "Knowledge base (used when the URL has no kb_id)", "type": "reference", "reference": "kb_knowledge_base"},
+  {"name": "article_page", "label": "Article page id", "type": "string", "default_value": "kb_tree_article"},
+  {"name": "home_page", "label": "Knowledge base list page id", "type": "string", "default_value": "kb_tree_home"}
+]
